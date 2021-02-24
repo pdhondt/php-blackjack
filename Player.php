@@ -5,9 +5,9 @@ require 'Deck.php';
 
 class Player
 {
-    private const MAX_SCORE = 21;
-    private array $cards = [];
-    private bool $lost = false;
+    protected const MAX_SCORE = 21;
+    protected array $cards = [];
+    protected bool $lost = false;
     //private int $score;
 
     public function __construct(Deck $deck)

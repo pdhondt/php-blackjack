@@ -11,6 +11,7 @@ require 'Suit.php';
 require 'Card.php';
 //require 'Deck.php';
 require 'Player.php';
+require 'Dealer.php';
 require 'Blackjack.php';
 
 if (!isset($_SESSION['blackjack'])) {
